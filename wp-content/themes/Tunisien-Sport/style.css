@@ -6,10 +6,11 @@ Author URI: https://www.tutowp.fr/tutowp
 Description: Thème WordPress basé sur Bootstrap
 Version: 1.0
 */
-.bd-highlight .btn-outline-warning {
-    color: #fff;
-    background-color: #ffc107;
-    border-color: #ffc107;
+.navbar-light{
+  position: fixed;
+}
+.bd-light .btn-outline-warning {
+   
     margin: 12px;
   }*
 .blog-header {
@@ -148,7 +149,7 @@ Version: 1.0
     margin-bottom: 0;
   }
   .page-footer{
-    background-color: #fff;
+    background-color: rgb(246, 246, 246);
   }
   .list-inline{
     background-color: dimgrey;
