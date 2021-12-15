@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <?php the_content(); ?>
+
 <?php
     $query = new WP_Query(['posts_per_page' => 1]);
     if($query->have_posts()) : while($query->have_posts()) : $query->the_post();

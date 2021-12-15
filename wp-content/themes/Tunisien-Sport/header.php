@@ -9,11 +9,14 @@
 <?php wp_head(); ?>
 </head>
 <body>
+    <!--promotion gif -->
 <img src="<?php echo get_bloginfo('template_directory') ?>/images/promotion.gif" width="100%" height="100%">
-<nav class="navbar navbar-light bg-light lg-12 md-6 m-3 ">
-<a href="http://localhost:8080/Site-fin/"><img src="<?php echo get_bloginfo('template_directory') ?>/images/LOgo.png" alt="" width="100px" height="60px"></a>
+<!--navbar-->
+<nav class="navbar navbar-light bg-light ">
+<!--logo-->
+<a href="http://localhost:8080/Site-fin/"><img src="<?php echo get_bloginfo('template_directory') ?>/images/Sport (1).png" alt="" width="100px" height="60px"></a>
 <div class="main">
-<!-- Another variation with a button -->
+<!-- search -->
 <?= get_search_form() ?>
 </div>
 
@@ -27,10 +30,7 @@
 <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
 </svg></a>
 
-<a href="https://developers.google.com/maps/documentation/embed/get-api-key"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-<path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-<path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-</svg></a>
+
 </div>
 
 </nav>
@@ -56,3 +56,4 @@
 ?>
 </div>
 </nav>
+                <!--end navbar-->

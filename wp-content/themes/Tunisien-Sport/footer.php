@@ -1,133 +1,118 @@
-</div>
 <!-- Footer -->
-<footer class="page-footer font-small stylish-color-dark pt-4">
+<footer class="page-footer font-small text-dark "  style="background-color:background: rgb(246, 246, 246)";>
+
 
   <!-- Footer Links -->
-  <div class="container text-center text-md-left">
-<!-- Grid row -->
-    <div class="row">
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3 dark-grey-text">
 
       <!-- Grid column -->
-      <div class="col-md-4 mx-auto">
+      <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
 
         <!-- Content -->
-        <h4 class="font-weight-bold text-uppercase mt-3 mb-4">Tunisen Sport</h4>
+        <a href="http://localhost:8080/Site-fin/"><img src="<?php echo get_bloginfo('template_directory') ?>/images/Sport (1).png" alt="" width="80px" height="60px"></a>
 
-        <a href="http://localhost:8080/Site-fin/"><img src="<?php echo get_bloginfo('template_directory') ?>/images/LOgo.png" alt="" width="120px" height="80px"></a>
-   
-        <p>Tunisien sport est une plateforme e-commerce destinée à la femme, sa famille et sa maison.</p>
+  <h4>Tunisien sport est une
+plateforme e-commerce 
+destinée à la femme,
+sa famille et les gens 
+sportifs..</h4>
 
-        <form class="news-letter-form">
-                  <input type="email" name="news-email" id="news-email" placeholder="Your email address">
-                  <input type="submit" value="Send">
-                </form>
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Produits</h5>
+        <h6 class="text-uppercase font-weight-bold text-warning">Products</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
+        <p>
+          <a class="dark-grey text-dark " href="http://localhost:8080/Site-fin/contact/">Contact</a>
+</p>
+        <p>
+          <a class="dark-grey text-dark" href="http://localhost:8080/Site-fin/vetements/">Vêtements</a>
+        </p>
+        <p>
+          <a class="dark-grey text-dark" href="http://localhost:8080/Site-fin/inscription/">Inscription</a>
 
-        <ul class="list-unstyled">
-          <li>
-            <a href="#">Promotions</a>
-          </li>
-          <li>
-            <a href="#">Connexion</a>
-          </li>
-          <li>
-            <a href="#">Marques</a>
-          </li>
-          <li>
-            <a href="#!">Numéro-Unique:</a>
-            <h6>50597467</h6>
-          </li>
-        </ul>
+        </p>
+        <p>
+          <a class="dark-grey text-dark" href="http://localhost:8080/Site-fin/connexion-2/">Conexion</a>
 
+        </p>
       </div>
-<!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none">
+      <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold text-warning">Services</h6>
+
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
+          <p class="dark-grey-text">Livraison & Retour</p>
+          <p class="dark-grey-text" >Paiement sécurisé</p>
+          <p class="dark-grey-text">Conditions de vente</p>
+          <p class="dark-grey-text">Services de Sport</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Pour Nous Contacter</h5>
-
-        <ul class="list-unstyled">
-          <li>
-            <a href="#!">Qui sommes-Nous</a>
-            <p> Nous sommes une groupe de jeune dévloppeures qui créent cette Boutique de vente en ligne pour aide tous les gents.  </p>
- 
-          </li>
-    
-
-        </ul>
-
+        <h6 class="text-uppercase font-weight-bold text-warning">Contact</h6>
+        <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto">
+        <p>
+          <i class="fas fa-home mr-3"></i> Barcelone,le 15 avenue Carthage</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i> jihenboughalmip4@gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> 50597467</p>
+       
       </div>
       <!-- Grid column -->
 
-      <hr class="clearfix w-100 d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-2 mx-auto">
-
-        <!-- Links -->
-        <h5 class="font-weight-bold text-uppercase mt-3 mb-4"></h5>
-
-        <ul class="list-unstyled">
-        <li>
-<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Abonnez-Vous</h5>
-          <p>Abonnez-vous à notre Newsletter et découvrez en exclusivité nos meilleures offres</p>
-</li>
-        
-        </ul>
-
-      </div>
-      <!-- Grid column -->
-</div>
+    </div>
     <!-- Grid row -->
 
   </div>
   <!-- Footer Links -->
-  </footer>
-  <!-- Social buttons -->
-  <ul class="list-unstyled list-inline text-center">
-    <li class="list-inline-item">
-      <a class="btn-floating btn-fb mx-1">
-        <i class="fab fa-facebook-f"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-tw mx-1">
-        <i class="fab fa-twitter"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-gplus mx-1">
-        <i class="fab fa-google-plus-g"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-li mx-1">
-        <i class="fab fa-linkedin-in"> </i>
-      </a>
-    </li>
-    <li class="list-inline-item">
-      <a class="btn-floating btn-dribbble mx-1">
-        <i class="fab fa-dribbble"> </i>
-      </a>
-    </li>
-  </ul>
-  <!-- Social buttons -->
+  <!-- Copyright -->
+  <div class="footer-copyright text-center text-black-50 py-3 bg-light">© 2021 Copyright:
+    <a class="dark-grey-text" href="https://simplon.co/"> Simplon.com</a>
+  
+  <!-- Copyright -->
+<!-- Facebook -->
+        <a class="fb-ic">
+          <i class="fab fa-facebook-f white-text mr-4"> </i>
+        </a>
+        <!-- Twitter -->
+        <a class="tw-ic">
+          <i class="fab fa-twitter white-text mr-4"> </i>
+        </a>
+        <!-- Google +-->
+        <a class="gplus-ic">
+          <i class="fab fa-google-plus-g white-text mr-4"> </i>
+        </a>
+        <!--Linkedin -->
+        <a class="li-ic">
+          <i class="fab fa-linkedin-in white-text mr-4"> </i>
+        </a>
+        <!--Instagram-->
+        <a class="ins-ic">
+          <i class="fab fa-instagram white-text"> </i>
+        </a>
 
+      </div>
+</div>
 
+</footer>
 <!-- Footer -->
+
 <?php wp_footer(); ?>
 </body>
 </html>

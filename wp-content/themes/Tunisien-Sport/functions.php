@@ -8,15 +8,12 @@
         wp_enqueue_script('boostrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array('jquery', 'popper'), 1, true);
     }
     add_action('wp_enqueue_scripts', 'wpbootstrap_styles_scripts');
-
-
-    // On ajoute un menu
-    function wpbootstrap_header_menu() {
+function wpbootstrap_after_setup_theme() {
+        // On ajoute un menu
         register_nav_menu('header_menu', "Menu du header");
         // On ajoute une classe php permettant de gérer les menus Bootstrap
         require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
-        // On ajoute le support du html5 pour les listes de commentaires
-        add_theme_support('html5', array('comment-list'));
     }
-    add_action('after_setup_theme', 'wpbootstrap_header_menu');
-?>
+    add_action('after_setup_theme', 'wpbootstrap_after_setup_theme');
+
+ 
